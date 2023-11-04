@@ -1,0 +1,15 @@
+.custom-navbar {
+    background-color: white;
+}
+
+.small-name {
+    font-size: 80%;
+    font-weight: lighter;
+    color: #888;
+}
+
+.big-name {
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+}
