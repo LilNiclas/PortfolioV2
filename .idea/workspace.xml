@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45a828a1-17d4-434e-bf74-4302d47a6f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio.iml" afterDir="false" />
+    <list default="true" id="45a828a1-17d4-434e-bf74-4302d47a6f09" name="Changes" comment="Navbar made">
+      <change beforePath="$PROJECT_DIR$/.idea/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +24,8 @@
       <list>
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,11 +73,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699109476592</updated>
-      <workItem from="1699109477649" duration="5085000" />
+      <workItem from="1699109477649" duration="7633000" />
     </task>
+    <task id="LOCAL-00001" summary="Navbar made">
+      <option name="closed" value="true" />
+      <created>1699115290150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699115290150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Navbar made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar made" />
   </component>
 </project>

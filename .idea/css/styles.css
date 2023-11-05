@@ -13,3 +13,25 @@
     font-weight: bold;
     color: black;
 }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.bg-granite-green {
+    background-color: #83A393;
+}
+
+.bg-very-peri {
+    background-color: #6667AB;
+}
+
+.bg-hawthorn-rose {
+    background-color: #865666;
+}
