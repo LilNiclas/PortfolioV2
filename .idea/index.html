@@ -8,6 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Awesome font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body class="vh-100 overflow hidden">
 
@@ -17,15 +19,16 @@
 <!-- Content -->
 <div class="container mt-5">
 
-    <!-- First Row - Left -->
-    <div class="row">
-        <div class="col-lg-8 mb-4">
+    <!-- First Row - About me -->
+    <div class="row" id="about-me">
+        <div class="col-lg-8 mb-4" style="padding-top: 20px;">
             <div class="card">
-                <div class="card-header bg-granite-green text-white">Left Rectangle Card</div>
+                <div class="card-header bg-granite-green text-white card-header-title">A Bit About Me</div>
                 <div class="card-body">
-                    <h5 class="card-title">Card Content</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <h4 class="card-title">Greetings!</h4>
+                    <p class="card-text intro-text">I'm <span style="color: blue;">Niclas Nielsen</span>, though my friends often call me <span style="color: blue;">Nidos</span>.
+                        I'm 21 years old and currently pursuing a degree in <span style="color: blue;">Computer Science</span> at the Copenhagen School of Design and Technology.
+                        My interests span across technology, sports, and living life to the fullest. I'm driven by the excitement of crafting innovative solutions and am truly passionate about what I do - all while having fun along the way.
                     </p>
                 </div>
             </div>
@@ -36,39 +39,109 @@
     </div>
 
     <br>
-    <!-- Second Row - Right -->
-    <div class="row">
-        <div class="col-lg-4 mb-4">
-            <img src="images/computer.png" class="img-fluid" style="max-width: 80%;"  alt="Muted Pattern">
+    <!-- Second Row - Education and experience -->
+    <div class="row" id="education-experience">
+        <div class="col-lg-4 mb-4" style="padding-top: 60px;">
+            <img src="images/computer.png" class="img-fluid" style="max-width: 80%;" alt="computer">
         </div>
         <div class="col-lg-8 mb-4">
             <div class="card">
-                <div class="card-header bg-hawthorn-rose text-white">Right Rectangle Card</div>
+                <div class="card-header bg-hawthorn-rose text-white card-header-title">Education and Experience</div>
                 <div class="card-body">
-                    <h5 class="card-title">Card Content</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="card-title">Education</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>2022 - Present</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="card-text"><span
+                                            style="font-weight: bold">Bachelor in Computer Science</span></p>
+                                    <p>My academic journey in Computer Science started in August 2022. It's been exciting so far, I've learned to program, analyze and develop IT systems.
+                                        Troughout my studies, I've learned the importants of synergy in teams and how it enhances productivity. I've also gained a profound understanding of how the technology we see today comes to life.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="card-title">Experience</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    2023 - Present
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="card-text"><span
+                                            style="font-weight: bold">Student Assistant at Radiometer</span></p>
+                                    <p class="card-text">Since September 2023, I've been working as a Student Assistant at Radiometer. In this role, I'm actively involved in creating solutions for our Selenium automation test framework.
+                                        I'm in the early stages of my journey here, absorbing knowledge like a sponge, and there's a lot to explore and learn. It's an exciting experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <br>
-    <!-- Third Row - Middle -->
-    <div class="row">
-        <div class="col-lg-6 offset-lg-3 mb-4">
+    <!-- Third Row - Projects -->
+    <div class="row" style="padding-top: 40px;">
+        <div class="col-lg-10 offset-lg-1 mb-4">
             <div class="card">
-                <div class="card-header bg-very-peri text-white">Middle Square Card</div>
+                <div class="card-header bg-very-peri text-white card-header-title">Projects</div>
                 <div class="card-body">
-                    <h5 class="card-title">Card Content</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="row" id="kinoxp">
+                        <div class="col-lg-4 mb-4" style="padding-top: 65px;">
+                            <h4 class="card-title">KinoXP</h4>
+                            <p class="card-text card-project-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/orgs/Kaptajnerne/repositories" target="_blank"
+                                   style="font-size: 24px;">
+                                    <i class="fab fa-github" style="color: #000000; font-size: 36px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mb-4">
+                            <img src="images/KinoXP.png" class="img-fluid" style="max-width: 100%;" alt="computer">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row" id="protool">
+                        <div class="col-lg-4 mb-4">
+                            <h4 class="card-title">Protool</h4>
+                            <p class="card-text card-project-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Kaptajnerne/EksamensProjekt" target="_blank"
+                                   style="font-size: 24px;">
+                                    <i class="fab fa-github" style="color: #000000; font-size: 36px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mb-4" style="padding-left: 43px;">
+                            <img src="images/Protool-logo.png" class="img-fluid" style="max-width: 95%;" alt="computer">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <br>
 </div>
 
+<br>
+<!-- Reflection -->
+<div class="col-md-6 offset-lg-3 mb-4 text-center">
+    <p style="font-weight: bold">While I consider myself a beginner, I'm passionate about the incredible possibilities that lie ahead.
+        My education, experience, and projects are just the beginning of what promises to be an amazing career as an upcoming Computer Scientist.</p>
+</div>
+
+<br>
 <!-- Footer -->
 <div id="footer-container"></div>
 
