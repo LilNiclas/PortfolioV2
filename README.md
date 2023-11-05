@@ -7,12 +7,12 @@ Welcome to my portfolio website! This repository contains the code and images fo
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Contact](#contact)'
-- [Picture of Portfolio](#picture-of-portfolio)]
+- [Contact](#contact)
+- [Picture of Portfolio](#picture-of-portfolio)
 
 ## Introduction
 
-This portfolio showcases my projects, experiences, and a bit about me. It's designed to provide visitors with an overview of my work, skills, and background. Feel free to explore and get in touch if you have any questions or inquiries.
+This portfolio showcases my projects, experiences, and a bit about me. It's designed to give visitors an overview of my work, skills, and background. Feel free to explore and get in touch if you have any questions or inquiries.
 
 ## Technologies Used
 
