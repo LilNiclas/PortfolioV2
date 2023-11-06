@@ -34,7 +34,7 @@ This portfolio showcases my projects, experiences, and a bit about me. It's desi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/LilNiclas/PortfolioV2.git
 2. Go to the website when it's live by either [nidos.dk](https://nidos.dk) or [niclasnielsen.com](https://niclasnielsen.com)
 
 ## Contact
